@@ -11,6 +11,7 @@
          <li><a href= "./Exercicio-4/" target= "_blank"> Exercicio 4 </a> </li>
          <li><a href= "./Exercicio-5/" target= "_blank"> Exercicio 5 </a> </li>
          <li><a href= "./Exercicio-6/" target= "_blank"> Exercicio 6 </a> </li>
+         <li><a href= "./Exercicio-7/" target= "_blank"> Exercicio 7 </a> </li>
          <li><a href= "./Exercicio-8/" target= "_blank"> Exercicio 8 </a> </li>
          <li><a href= "./Exercicio-9/" target= "_blank"> Exercicio 9 </a> </li>
          <li><a href= "./Exercicio-10/" target= "_blank"> Exercicio 10 </a> </li>

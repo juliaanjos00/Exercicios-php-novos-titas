@@ -23,22 +23,18 @@
                   <input type="submit" class="button" name="enviar" value="Enviar"/> 
                 </form>
 
-              <?php
-
-                if (isset($_GET['value'])) {
-                  $value = $_GET['value'];
-                  $numero = 1;
-
-                    echo "1 a $value:";
+                <?php
+                  if (array_key_exists ('value', $_POST)) {
+                    $value= $_POST['value'];
+                     $numero = 1;
+                     echo "<h3> De 1 até $value:</h3>";
                      for ($i = 1; $i <= $value; $i++) {
-                     echo "$i";
-                     $numero*= $i;
-                    }
-                     echo "O produto do $numero é:";
-                }
-       
-             ?>
-
+                         echo "<li>$i</li>";
+                         $numero*= $i;
+                      }
+                  }
+                 ?>
+             
              </div> 
        </body>  
 </html>                 
